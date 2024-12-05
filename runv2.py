@@ -15,12 +15,13 @@ def log(level, message, color=Fore.WHITE):
 
 def show_warning():
     print(Fore.LIGHTYELLOW_EX + """
-   _  __        __    ___              ___       __                  __     
-  / |/ /__  ___/ /__ / _ \___ ___ __  / _ |__ __/ /____  __ _  ___ _/ /____ 
- /    / _ \/ _  / -_) ___/ _ `/ // / / __ / // / __/ _ \/  ' \/ _ `/ __/ -_)
-/_/|_/\___/\_,_/\__/_/   \_,_/\_, / /_/ |_\_,_/\__/\___/_/_/_/\_,_/\__/\__/ 
-                             /___/                                          
-          Nodepay Autofarmer by IM-Hanzou: github.com/im-hanzou\n""")
+     ____                  _          _    _         _                 _   _ _           _ _ 
+  / ___|_ __ _   _ _ __ | |_ ___   / \  (_)_ __ __| |_ __ ___  _ __ | | | (_)_ __   __| (_)
+ | |   | '__| | | | '_ \| __/ _ \ / _ \ | | '__/ _` | '__/ _ \| '_ \| |_| | | '_ \ / _` | |
+ | |___| |  | |_| | |_) | || (_) / ___ \| | | | (_| | | | (_) | |_) |  _  | | | | | (_| | |
+  \____|_|   \__, | .__/ \__\___/_/   \_\_|_|  \__,_|_|  \___/| .__/|_| |_|_|_| |_|\__,_|_|
+             |___/|_|                                         |_|                                                                    
+          Nodepay Autofarmer by CryptoAirdropHindi: https://t.me/Crypto_airdropHM""")
     try:
         confirm = input(Fore.LIGHTRED_EX + "By using this tool means you understand the risks. Do it at your own risk! \n" + 
                        Fore.LIGHTYELLOW_EX + "Press Enter to continue or Ctrl+C to cancel... ")
