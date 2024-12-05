@@ -49,7 +49,7 @@ apt update; apt upgrade -y; apt install git python3 python3-pip -y
 ```
 - Download this script using Git:
 ```bash
-git clone https://github.com/im-hanzou/nodepay-automate
+git clone https://github.com/alimallick/nodepay-automate
 ```
 - Installing requirements, make sure you are in this script directory: 
 ```bash
@@ -63,7 +63,7 @@ pkg update; pkg upgrade -y; pkg install git python python-pip -y
 ```
 - Download this script using Git:
 ```bash
-git clone https://github.com/im-hanzou/nodepay-automate
+git clone https://github.com/alimallick/nodepay-automate
 ```
 - Make sure you are in this script directory: ``cd nodepay-automate``
 - Copy ``libcurl-impersonate-chrome.so.4`` to ``/data/data/com.termux/files/usr/lib``
